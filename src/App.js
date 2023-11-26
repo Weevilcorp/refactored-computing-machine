@@ -1,12 +1,41 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 //import logo from './logo.svg';
-import './App.css';
+//import { useEffect, useState, useRef } from 'react';
+import './App.scss';
+//import SonicDashIcon from './SonicDashIcon.webp';
+//import stretched from './stretched.png';
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+    //console.log('responsive class added');
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function Navbar() {
+
+  return (
+    <div className="topnav" id="myTopnav">
+      <a href="#home" className="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a className="icon" onClick={myFunction}>
+        <i className="fa fa-bars"></i>
+      </a>
+    </div>
+  );
+
+}
 
 function App() {
   return (
     <>
-      <div style={{"background":"yellow","padding":"5px"}}>
-        <h4 style={{"text-align":"center"}}>Resize1 the browser window to see the responsive effect.</h4>
+      <div style={{"background":"rgb(0, 132, 255)","padding":"5px"}} id="info">
+        <h4 style={{"textAlign":"center"}}>Resize1 the browser window to see the responsive effect.</h4>
       </div>
       
       <div className="header">
@@ -14,17 +43,12 @@ function App() {
         <p>With a <b>flexible</b> layout.</p>
       </div>
       
-      <div className="navbar">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-      </div>
+      <Navbar />
       
-      <div className="row">
+      <div className="row content" id="row">
         <div className="side">
           <h2>About Me</h2>
-          <h5>Photo of me:</h5>
+          <h5>Photo of me:</h5>          
           <div className="fakeimg" style={{"height":"200px"}}>Image</div>
           <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
           <h3>More Text</h3>

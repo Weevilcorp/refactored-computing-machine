@@ -1,1 +1,10 @@
 # [Responsive Website using Flexbox](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
+# [Deploy to Github Pages from React](https://create-react-app.dev/docs/deployment/#github-pages)
+# /* eslint-disable jsx-a11y/anchor-is-valid */
+# [Sticky Navigation Example](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
+# [Create A Responsive Topnav](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+# [const style = getComputedStyle(element)](https://zellwk.com/blog/css-values-in-js/)
+# [Setup react with webpack and babel](https://medium.com/age-of-awareness/setup-react-with-webpack-and-babel-5114a14a47e9)
+# [React useRef Hook](https://www.w3schools.com/react/react_useref.asp)
+# [Create a new branch with git](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+# [React Function Components](https://www.robinwieruch.de/react-function-component/)

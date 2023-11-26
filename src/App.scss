@@ -4,8 +4,14 @@
 
 /* Style the body */
 body {
-  font-family: Arial;
+  //font-family: Arial;
+  //font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
+  //background: rgb(0, 132, 255);
+  /*margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;*/
 }
 
 /* Header/logo Title */
@@ -13,21 +19,34 @@ body {
   padding: 60px;
   text-align: center;
   background: #1abc9c;
-  color: white;
+  color: rgb(12, 11, 11);
 }
 
 /* Style the top navigation bar */
 .navbar {
-  display: flex;
+  //display: flex;
+  /*overflow: hidden;
+  background-color: #333;*/
+  overflow: hidden;
   background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  color: white;
+  /*color: white;
   padding: 14px 20px;
   text-decoration: none;
+  text-align: center;*/
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /* Change color on hover */
@@ -76,4 +95,10 @@ body {
   .row, .navbar {   
     flex-direction: column;
   }
+  .header {
+    display: none;
+  }
 }
+
+//@import 'custom';
+@import 'topnav';
