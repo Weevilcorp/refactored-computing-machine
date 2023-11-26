@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/refactored-computing-machine/static/css/main.119d738c.css",
-    "main.js": "/refactored-computing-machine/static/js/main.775c3c72.js",
+    "main.js": "/refactored-computing-machine/static/js/main.938c4f40.js",
     "static/js/787.41f327eb.chunk.js": "/refactored-computing-machine/static/js/787.41f327eb.chunk.js",
     "index.html": "/refactored-computing-machine/index.html",
     "main.119d738c.css.map": "/refactored-computing-machine/static/css/main.119d738c.css.map",
-    "main.775c3c72.js.map": "/refactored-computing-machine/static/js/main.775c3c72.js.map",
+    "main.938c4f40.js.map": "/refactored-computing-machine/static/js/main.938c4f40.js.map",
     "787.41f327eb.chunk.js.map": "/refactored-computing-machine/static/js/787.41f327eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.119d738c.css",
-    "static/js/main.775c3c72.js"
+    "static/js/main.938c4f40.js"
   ]
 }
